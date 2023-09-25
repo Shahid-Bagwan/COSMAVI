@@ -5,6 +5,7 @@ import About from './components/about'
 import TeamComponent from './components/team_component'
 import Footer from './components/footer'
 import Product from './components/product_introduction'
+import Steps_section from './components/steps_section'
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
       </section>
       <section className="container px-0 ">
       <Product/>
+      <Steps_section/>
       </section>
       <section className="container px-0 ">
       <About/>
