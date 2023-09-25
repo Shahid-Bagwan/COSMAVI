@@ -36,7 +36,7 @@ const footer = () => {
                   href="tel:7276780411"
                   aria-label="Our phone"
                   title="Our phone"
-                  className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                  className="transition-colors duration-300 text-gray-100 hover:text-gray-300"
                 >
                   (+91)7276780411
                 </a>
@@ -47,7 +47,7 @@ const footer = () => {
                   href="mailto:Cosmaviindia@gmail.com"
                   aria-label="Our email"
                   title="Our email"
-                  className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                  className="transition-colors duration-300 text-gray-100 hover:text-gray-300"
                 >
                   Cosmaviindia@gmail.com
                 </a>
@@ -60,7 +60,7 @@ const footer = () => {
                   rel="noopener noreferrer"
                   aria-label="Our address"
                   title="Our address"
-                  className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+                  className="transition-colors duration-300 text-gray-100 hover:text-gray-300"
                 >
                   119, 1, 2, Bhondvewasti, Pune City, Chinchwadgaon, Mulshi Pune - 411033
                 </a>
