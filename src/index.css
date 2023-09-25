@@ -5,18 +5,39 @@
 #root {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /* background-color: rgb(46, 7, 104); */
   /* color: rgb(8, 176, 176); */
 }
 
 .hero {
-  /* background-image: url("./assets/Hero-bg.jpg"); */
+  background-image: url("./assets/Hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  height: 46rem;
 }
 
+#nanoplasty {
+  position: relative;
+  z-index: 1;
+  /* background-image: url("./assets/nanoplasty.jpg"); */
+  /* background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("./assets/nanoplasty.jpg"); */
+
+  /* opacity: 0.5; */
+}
+#nanoplasty::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("./assets/nanoplasty.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.2;
+}
 .height {
   height: 100vh;
 }
-
