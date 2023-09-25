@@ -3,9 +3,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../assets/Cosmavi-logo.png'
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'Nanoplasty', href: '#' },
-  { name: 'About Us', href: '#' },
+  { name: 'Home', href: '#home' },
+  { name: 'Nanoplasty', href: '#nanoplasty' },
+  { name: 'About Us', href: '#about' },
 ]
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
-      <div className="hero text-white bg-gradient-to-t from-white to-purple-500">
+      <div id='home' className="hero text-white bg-gradient-to-t from-white to-purple-500">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
