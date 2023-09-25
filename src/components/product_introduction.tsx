@@ -4,9 +4,9 @@ const product_introduction = () => {
 
   return (
     <>
-      <section>
-        <div className="container my-24 mx-auto md:px-6">
-          <section id="nanoplasty" className="mb-32 text-left">
+      <section className="w-full">
+        <div id="nanoplasty" className="container  mx-0 md:px-6 pb-8">
+          <section  className=" text-left w-full">
             <h2 className="mb-12 text-center text-3xl font-bold pt-12">
               INTRODUCING NANOPLASTY BY COSMAVI.
             </h2>

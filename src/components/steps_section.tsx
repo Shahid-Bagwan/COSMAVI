@@ -3,10 +3,10 @@ import React from 'react'
 const steps_section = () => {
     return (
         <>
-            <section className="dark:bg-gray-800 dark:text-gray-100">
+            <section className=" text-blue-800 bg-red-200">
                 <div className="container mx-auto flex flex-col p-6">
                     <h2 className="py-4 text-3xl font-bold text-center">Nanoplastia Treatment Instructions</h2>
-                    <div className="divide-y divide-gray-300">
+                    <div className="divide-y divide-red-400">
                         <div className="grid justify-center grid-cols-4 p-8 mx-auto space-y-8 lg:space-y-0">
                             <div className="flex items-center justify-center lg:col-span-1 col-span-full">
                                 <i className="fa-solid fa-1 text-4xl "></i>
