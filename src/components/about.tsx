@@ -53,7 +53,7 @@ const about = () => {
                                     </div>
                                 </div>
 
-                                {/* <!-- Press Card --> */}
+                                {/* <!-- Customer Card --> */}
                                 <div className="flex p-4 shadow-md">
                                     <div className="mr-6">
                                         <i className="fa-solid fa-users text-3xl"></i>
@@ -67,11 +67,7 @@ const about = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Our Team part */}
             </section>
-            {/* company Introduction part */}
-
         </>
     )
 }

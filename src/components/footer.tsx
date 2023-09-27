@@ -1,4 +1,4 @@
-import logo from '../assets/Cosmavi-logo.png'
+import logo from "../assets/Cosmavi-logo.png";
 const footer = () => {
   return (
     <>
@@ -19,10 +19,13 @@ const footer = () => {
               </a>
               <div className="mt-6 lg:max-w-sm">
                 <p className="text-sm text-gray-100">
-                  Crafting Beauty Through Innovation Since Day One. Our passion is to redefine beauty and provide exceptional solutions for all hair types.
+                  Crafting Beauty Through Innovation Since Day One. Our passion
+                  is to redefine beauty and provide exceptional solutions for
+                  all hair types.
                 </p>
                 <p className="mt-4 text-sm text-gray-100">
-                  Join us on this journey towards healthier, more radiant hair. Together, we empower you to embrace your unique beauty.
+                  Join us on this journey towards healthier, more radiant hair.
+                  Together, we empower you to embrace your unique beauty.
                 </p>
               </div>
             </div>
@@ -62,7 +65,8 @@ const footer = () => {
                   title="Our address"
                   className="transition-colors duration-300 text-gray-100 hover:text-gray-300"
                 >
-                  119, 1, 2, Bhondvewasti, Pune City, Chinchwadgaon, Mulshi Pune - 411033
+                  119, 1, 2, Bhondvewasti, Pune City, Chinchwadgaon, Mulshi Pune
+                  - 411033
                 </a>
               </div>
             </div>
@@ -106,13 +110,11 @@ const footer = () => {
             <p className="text-sm text-gray-100">
               © Copyright 2023 Lorem Inc. All rights reserved.
             </p>
-
           </div>
         </div>
       </section>
-
     </>
-  )
-}
+  );
+};
 
-export default footer
+export default footer;
