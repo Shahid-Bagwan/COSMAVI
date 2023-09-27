@@ -19,10 +19,10 @@ const steps_section = () => {
                     <div className="timeline-wrap text-left">
 
                         {steps.map((step) => (
-                            <div className="timeline-card">
+                            <div className="timeline-card" key={step.name} >
                                 <div className="timeline-card-wrap">
                                     <div className="card-head-wrap">
-                                        <h2 key={step.name} className="timeline-card-head">{step.name}</h2>
+                                        <h2 className="timeline-card-head">{step.name}</h2>
                                         <h6 className="timeline-card-subhead">{step.use}</h6>
                                     </div>
                                     <img src={step.img} className='h-52 ' alt="" />
