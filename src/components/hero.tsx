@@ -14,7 +14,7 @@ const Hero = () => {
 
     return (
       <section>
-        <div id='home' className="hero text-white  m-0 ">
+        <div id='home' className="hero text-white  m-0 pb-16 ">
         <header className="absolute inset-x-0 top-0 z-50">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
@@ -96,17 +96,7 @@ const Hero = () => {
               <p className="mt-6 text-lg leading-8 text-gray-600">
               Welcome to Cosmavi, where we believe every strand of hair tells a unique story, and your hair deserves the best, naturally.
               </p>
-              <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
-                  href="#"
-                  className="rounded-md bg-gradient-to-t from-green-500 to-green-200 hover:bg-gradient-to-b px-3.5 py-2.5 text-sm font-semibold text-gray-700 shadow-sm  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Our Products
-                </a>
-                {/* <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                  Learn more <span aria-hidden="true">→</span>
-                </a> */}
-              </div>
+              
             </div>
           </div>
 
