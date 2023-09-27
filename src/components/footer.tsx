@@ -89,7 +89,7 @@ const footer = () => {
                   </svg>
                 </a>
                 <a
-                  href="/"
+                  href="https://www.facebook.com/profile.php?id=100091279894179&mibextid=ZbWKwL"
                   className="text-gray-100 transition-colors duration-300 hover:text-deep-purple-accent-400"
                 >
                   <svg viewBox="0 0 24 24" fill="currentColor" className="h-5">
