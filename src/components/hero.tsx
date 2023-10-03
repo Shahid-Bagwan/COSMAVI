@@ -10,7 +10,7 @@ const navigation = [
 
 const Hero = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+// testing
   return (
     <section>
       <div id="home" className="hero text-white  m-0 pb-16 ">
